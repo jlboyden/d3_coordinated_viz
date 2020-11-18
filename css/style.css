@@ -1,0 +1,120 @@
+body {
+    background-color: #000000;
+}
+
+.counties {
+    stroke: #faf0e6;
+    stroke-width: 0.5px;
+}
+
+.chart {
+    position: absolute;
+    top: 325px;
+    left: 900px;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.chartTitle {
+    font-family: Verdana;
+    font-size: .8em;
+    font-weight: bold;
+    width: 1em;
+}
+
+.chartBackground {
+    fill: #faf0e6;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: none;
+    stroke-width: 0px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: none;
+    stroke-width: 1px;
+}
+
+.axis text {
+    font-family: Verdana;
+    font-size: .8em;
+    font-color: #faf0e6;
+    fill: #ffffff;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    z-index: 10;
+    font-family: Verdana;
+    font-size: .8em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 4px #D3D3D3;
+    background: #faf0e6;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 5px;
+    color: #faf0e6;
+    background-color: #000000;
+    border: 2px solid #faf0e6;
+    padding: 5px 10px;
+    top: 75px;
+    font-family: Verdana;
+    box-shadow: 2px 2px 4px #D3D3D3;
+}
+
+.infolabel h2 {
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.map {
+    position: absolute;
+    top: 0px;
+    left: -350px ;
+    border: none;
+    margin: 100px 0 0 40px;
+    background: none;
+}
+
+#title {
+    top: 10px;
+    left: 170px;
+    font-size: 2.3em;
+    font-style: bold;
+    position: absolute;
+    color: #faf0e6;
+    border-width: 0px;
+    border: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    font-family: Verdana;
+}
+
+#info {
+    top: 750px;
+    left: 1000px;
+    width: 300px;
+    font-size: .8em;
+    position: absolute;
+    color: #faf0e6;
+    border-width: 0px;
+    border: none;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    font-family: Verdana;
+}
